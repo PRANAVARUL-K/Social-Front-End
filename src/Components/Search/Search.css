@@ -1,0 +1,82 @@
+.scroll-box {
+    flex: 1;
+    border: 2px solid white;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 20px;
+    padding: 20px;
+    overflow-y: auto;
+    max-height: 300px;
+    margin-right: 20px;
+    scrollbar-width: thin;
+    scrollbar-color: rgba(0, 0, 0, 0.5) white;
+}
+
+.scroll-box::-webkit-scrollbar {
+    width: 12px;
+}
+
+.scroll-box::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.scroll-box::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 6px;
+}
+
+.user-info {
+    color: white;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.search-result {
+    color: white;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.container {
+    display: flex;
+    margin: 60px;
+    gap: 60px;
+    height: calc(100vh - 300px);
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+}
+
+.form-control {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.scroll-box {
+    flex: 1;
+    border: 2px solid white;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 20px;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.user-info {
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.user-info p {
+    margin: 5px 0;
+}
+
+.search-button {
+    background-color: white;
+}
